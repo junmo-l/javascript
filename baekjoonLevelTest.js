@@ -137,10 +137,60 @@
 // }
 
 // 반복문 10단계 8393 합
+// const fs = require("fs");
+// // const input = fs.readFileSync(0,'utf8').toString().trim();
+// const input = fs.readFileSync('./ee.txt').toString().trim();
+// // let A = input;
+// for (let i = 1; i <= input; i++) {
+//     console.log(' '.repeat(input-i)+'*'.repeat(i));
+// }
+
+// 반복문 1단계 구구단 다시풀이
+// const fs = require("fs");
+// // const input = fs.readFileSync(0,'utf8').toString();
+// const input = fs.readFileSync('./ee.txt').toString();
+// // let A = input[1].split(" ");
+// let A = Number(input)
+// for(let i = 1; i <= 9; i++) {
+//     console.log(A + " * " + i + " = " + A*i);
+//     console.log(`${A} * ${i} = ${A*i}`);
+// }
+
+
+// // 반복문 2단계 A+B 다시풀이
+// const fs = require("fs");
+// // const input = fs.readFileSync(0,'utf8').toString().split("\n");
+// const input = fs.readFileSync('./ee.txt').toString().split("\n");
+// // let a = input[0] 
+
+// for(let i = 1; i < input.length; i++) {
+//     let num = (input[i].split(" "));
+//     // console.log(num)
+//     console.log(Number(num[0])+Number(num[1]))
+// }
+
+// // 반복문 3단계 8393 합 다시풀이
+// const fs = require("fs");
+// // const input = fs.readFileSync(0,'utf8').toString().split("\n");
+// const input = fs.readFileSync('./ee.txt').toString();
+// // let a = input[0] 
+// let a = Number(input);
+// let b = 0;
+// for(let i = 1; i <= a; i++) {
+//     b += i;
+// }
+// console.log(b);
+
+// 반복문 3단계 8393 합 다시풀이
 const fs = require("fs");
-// const input = fs.readFileSync(0,'utf8').toString().trim();
-const input = fs.readFileSync('./ee.txt').toString().trim();
-// let A = input;
-for (let i = 1; i <= input; i++) {
-    console.log(' '.repeat(input-i)+'*'.repeat(i));
+// const input = fs.readFileSync(0,'utf8').toString().split("\n");
+const input = fs.readFileSync('./ee.txt').toString();
+
+let a = '*'
+for(let i = 1; i <= input; i++) {
+    for(let i = 1; i <= i; i++) {
+    a = a + '*';
+
+    console.log(a);  
+    }
 }
