@@ -34,17 +34,17 @@
 // console.log("program end !");
 
 // 어레이 안의 어레이 뽑는법 for (let mixin of mixins[위치])
-// let mixins = ["apple", false, "banana", 4, "orange", ["tiger", "lion"]];
-// for (let mixin of mixins) {
-//     console.log("mixins : " + mixin);
-//     // console.log(!(((typeof mixin)  == 'number') || ((typeof mixin)  == 'string') || ((typeof mixin)  == 'boolean'))) {
-//     let condition = !(((typeof mixin)  == 'number') || ((typeof mixin)  == 'string') || ((typeof mixin)  == 'boolean'))
-//     if (condition) {
-//     for (let animal of mixin) {
-//             console.log("animals : " + animal);
-//         }
-//     }
-// }
+let mixins = ["apple", false, "banana", 4, "orange", ["tiger", "lion"]];
+for (let mixin of mixins) {
+    console.log("mixins : " + mixin);
+    // console.log(!(((typeof mixin)  == 'number') || ((typeof mixin)  == 'string') || ((typeof mixin)  == 'boolean'))) {
+    let condition = !(((typeof mixin)  == 'number') || ((typeof mixin)  == 'string') || ((typeof mixin)  == 'boolean'))
+    if (condition) {
+    for (let animal of mixin) {
+            console.log("animals : " + animal);
+        }
+    }
+}
 
 // 변수속성]\
 // typeof mixin
