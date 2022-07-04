@@ -34,23 +34,28 @@
 // console.log("program end !");
 
 // 어레이 안의 어레이 뽑는법 for (let mixin of mixins[위치])
-let mixins = ["apple", false, "banana", 4, "orange", ["tiger", "lion"]];
-for (let mixin of mixins) {
-    console.log("mixins : " + mixin);
-    // console.log(!(((typeof mixin)  == 'number') || ((typeof mixin)  == 'string') || ((typeof mixin)  == 'boolean'))) {
-    let condition = !(((typeof mixin)  == 'number') || ((typeof mixin)  == 'string') || ((typeof mixin)  == 'boolean'))
-    if (condition) {
-    for (let animal of mixin) {
-            console.log("animals : " + animal);
-        }
-    }
-}
-console.log("program end !");
+// let mixins = ["apple", false, "banana", 4, "orange", ["tiger", "lion"]];
+// for (let mixin of mixins) {
+//     console.log("mixins : " + mixin);
+//     // console.log(!(((typeof mixin)  == 'number') || ((typeof mixin)  == 'string') || ((typeof mixin)  == 'boolean'))) {
+//     let condition = !(((typeof mixin)  == 'number') || ((typeof mixin)  == 'string') || ((typeof mixin)  == 'boolean'))
+//     if (condition) {
+//     for (let animal of mixin) {
+//             console.log("animals : " + animal);
+//         }
+//     }
+// }
 
-// 변수속성
+// 변수속성]\
 // typeof mixin
 // 'string'
 // (typeof mixin)  == 'string'
 // true
 // (typeof mixin)  == 'number'
 // false
+
+
+let mixins = ["apple", false, "banana", 4, "orange", ["tiger", "lion"]];
+let fruits = ["apple", "banana", "orange"] ;
+
+console.log("program end !");
