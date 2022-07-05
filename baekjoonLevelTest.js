@@ -181,16 +181,120 @@
 // }
 // console.log(b);
 
-// 반복문 3단계 8393 합 다시풀이
-const fs = require("fs");
-// const input = fs.readFileSync(0,'utf8').toString().split("\n");
-const input = fs.readFileSync('./ee.txt').toString();
+// // 반복문 3단계 8393 합 다시풀이
+// const fs = require("fs");
+// // const input = fs.readFileSync(0,'utf8').toString().split("\n");
+// const input = fs.readFileSync('./ee.txt').toString();
 
-let a = '*'
-for(let i = 1; i <= input; i++) {
-    for(let i = 1; i <= i; i++) {
-    a = a + '*';
+// let a = '*'
+// for(let i = 1; i <= input; i++) {
+//     for(let i = 1; i <= i; i++) {
+//     a = a + '*';
 
-    console.log(a);  
-    }
-}
+//     console.log(a);  
+//     }
+// }
+
+// const fs = require("fs");
+// // const input = fs.readFileSync(0,'utf8').toString().split("\n");
+// const input = fs.readFileSync('./ee.txt').toString();
+
+// function sumThree(x) {
+//     let result = x;
+//     return result;
+// }
+
+// let first = 75;
+// let second = 7;
+// let third = 5;
+// result = sumThree(first, second, third);
+// let backtick = `sumThree : ${result}`
+// console.log(backtick);
+
+// sumThree(first, second);
+
+
+// if (i > 1) {
+//     for (let a = 1; a <= 10000; a++) {
+//         sum += a
+//         console.log(sum)
+//     }
+
+// }
+// function d(n){
+//     let number = n; 
+//     let result = 0;
+
+//     for (let i = 0; i < String(n).length; i++) {
+//     result += number % 10;
+//     number = Math.floor(number / 10);
+// }
+// return n + result;
+// }
+
+
+
+// let sum = 0;
+// for(let i = 1; i <=10000; i++){
+//     if (i <= 10){
+//         let a = Math.floor(i / 10);
+//         let b = i % 10;
+//         let sum = i+a+b;
+//         console.log(sum)
+//     } 
+// }
+
+// let i = toString
+// if(i.length >= 2){
+//     for(let i = 1; i <=10000; i++){
+        
+//     }
+// }else if(0< i.length <=1 ){
+
+// }
+
+// const fs = require('fs');
+// const input = fs.readFileSync(0,'utf8').toString();
+// // let year = 2000;
+// let year = Number(input);
+
+// if ((year%4===0 && year%100!==0) || year%400===0) {
+//     console.log("1");
+// } else {
+//     console.log("0");
+// }
+
+// function d(n) {
+//     let number = n;
+//     let result = 0;
+
+//     for (let i = 0; i < String(n).length; i++) {
+//         // number를 10으로 나눠가면서 각 자리수를 result에 합한다.
+//         result += number % 10;
+//         number = Math.floor(number / 10);
+//     }
+//     // 입력받은 수 와 result를 더하여 return
+//     return n + result;
+// }
+
+// const range = 10000;
+// // 0~10000 범위까지 셀프넘버 배열을 생성하고 true로 초기화.
+// let selfNumbers = Array(range + 1).fill(true);
+
+// for (let i = 0; i <= range; i++) {
+//     // 셀프넘버가 아니면 false로 변환.
+//     selfNumbers[d(i)] = false;
+// }
+
+// // true index만 출력
+// for (let i = 0; i < range; i++) {
+//     if (selfNumbers[i]) {
+//         console.log(i);
+//     }
+// }
+
+// let sum = 0;
+// let 
+
+// function self()
+
