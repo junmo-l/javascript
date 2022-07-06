@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ToDoList.css">
+    <title>ToDoList</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="div_top">
+                <h1>To Do List</h1>
+            </div>
+        </header>
+        <section>
+            <div class="div_add_container">
+                <input type="text" id="inputext" onchange="printName" placeholder="Add a new task">
+                <button id="add_button">Add</button>
+            </div>
+            <div class="div_list_container">
+                <ul id="ul_items">
+                    <li class="li_item">
+                        <span class="task"></span>
+                        <span class="span_function">
+                            <span class="like">
+                                <i class="i_icons">favorite</i>
+                            </span>
+                            <span class="delete">
+                                <i class="i_icons">delete</i>
+                            </span>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <script src="./ToDoList.js"></script>
+
+</body>
+
+</html>
