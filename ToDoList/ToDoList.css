@@ -115,12 +115,12 @@ h1 {
     white-space: nowrap;
     word-wrap: normal;
     direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
 }
 
 .task {
     flex: 9;
 }
 
-.material-icons:hover {
-    cursor: pointer;
-}
+
