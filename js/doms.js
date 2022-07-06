@@ -6,9 +6,12 @@ ultag.appendChild(litag);
 
 ultag.children[4].remove()
 // ultag.remove()
-let atag = document.querySelector('a')
-atag.setAttribute('class', 'daum')
-atag.innerText = "Daum"
+let atag = document.querySelector('a');
+atag.innerText = "Daum";
+// atag.setAttribute('class', 'daum')
+atag.setattribute("href","https://www.daum.net");
+
+
 
 let remove = function (first="") {
     let ultag = document.querySelector('ul');
