@@ -293,8 +293,5 @@
 //     }
 // }
 
-// let sum = 0;
-// let 
 
-// function self()
 

@@ -70,32 +70,22 @@ result = sumThree(first, second, third);
 let backtick = `sumThree : ${result}`
 console.log(backtick);
 
-// arrow function
-let sumTwoArrow = (x, z) => {
-    let result = x + z;
-    return result;
-}
+// // arrow function
+// let sumTwoArrow = (x, z) => {
+//     let result = x + z;
+//     return result;
+// }
 
-sumThree(first, second);
+// sumThree(first, second);
 
 // function in fuction
-function sumThree(item_1, item_2, item_3) {
-    let result = sumTwo(item_1, item_2);
-    let backtick = `sumTwo : ${result}`
-    console.log(backtick);
-    result = item_1 + item_2 + item_3;
-    return result;
-}
-console.log(sumThree(first, second));
+// function sumThree(item_1, item_2, item_3) {
+//     let result = sumTwo(item_1, item_2);
+//     let backtick = `sumTwo : ${result}`
+//     console.log(backtick);
+//     result = item_1 + item_2 + item_3;
+//     return result;
+// }
+// console.log(sumThree(first, second));
 
 
-//callback function
-function sumFour(item_1, item_2, item_3=0) {
-    let result = sumTwo(item_1, item_2);
-    let backtick = `sumTwo : ${result}`
-    console.log(backtick);
-    result = item_1 + item_2 + item_3;
-    return result;
-}
-
-console.log(sumFour(first, second));
