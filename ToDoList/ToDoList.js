@@ -87,7 +87,7 @@ addButton.addEventListener('click', ()=>{
 
     inputText.value = '';
 
-    spanDelete.addEventListener('click', ()=>{
+    spanDelete.addEventListeer('click', ()=>{
         li.remove();
     });
 

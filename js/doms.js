@@ -1,23 +1,15 @@
-let ultag = document.querySelector('ul');
-let litag = document.createElement('li');
-let litext = document.createTextNode('Sony');
-litag.appendChild(litext);
-ultag.appendChild(litag);
+// let ultag = document.querySelector('ul');
+// let litag = document.createElement('li');
+// let litext = document.createTextNode('Sony');
+// litag.appendChild(litext);
+// ultag.appendChild(litag);
 
-ultag.children[4].remove()
+// ultag.children[4].remove()
 // ultag.remove()
 let atag = document.querySelector('a');
 atag.innerText = "Daum";
 // atag.setAttribute('class', 'daum')
-atag.setattribute("href","https://www.daum.net");
-
-
-
-let remove = function (first="") {
-    let ultag = document.querySelector('ul');
-    ultag.lastChild.remove();
-    return true;
-}
+// atag.setattribute("href","https://www.daum.net");
 
 function add(first=""){
     console.log(`alert : ${first}`)
@@ -29,10 +21,36 @@ function add(first=""){
     return true;
 }
 
+let remove = function(first="") {
+    let ultag = document.querySelector('ul');
+    ultag.lastChild.remove();
+    return true;
+}
+
 let addEvent = document.querySelector("#add");
-addEvent.addEventListener('click', add);
+// addEvent.addEventListener('click', add);
+// addEvent.addEventListener('click', (first="")=>{
+//     console.log(`alert : ${first}`)
+//     let ultag = document.querySelector('ul');
+//     let litag = document.createElement('li');
+//     let litext = document.createTextNode('Sony');
+//     litag.appendChild(litext);
+//     ultag.appendChild(litag);
+//     return true;
+// });
+
+addEvent.addEventListener('click', (event)=>{
+    // console.log(event)
+    console.log(event.target.innerText);
+    
+    let ultag = event.target;
+    let litag = document.createElement('li');
+    let litext = document.createTextNode('Sony');
+    litag.appendChild(litext);
+    ultag.appendChild(litag);
+
+    return true;
+});
 
 let removeEvent = document.querySelector("#remove");
 removeEvent.addEventListener('click', remove);
-
-// 본인이벤트를 본인이알게끔 추가삭제 
