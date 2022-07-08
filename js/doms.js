@@ -8,8 +8,8 @@
 // ultag.remove()
 let atag = document.querySelector('a');
 atag.innerText = "Daum";
-// atag.setAttribute('class', 'daum')
-// atag.setattribute("href","https://www.daum.net");
+atag.setAttribute('class', 'daum');
+atag.setAttribute("href","https://www.daum.net");
 
 function add(first=""){
     console.log(`alert : ${first}`)
